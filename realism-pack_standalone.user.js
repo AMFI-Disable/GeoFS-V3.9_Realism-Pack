@@ -127,10 +127,10 @@
 // @updateURL https://update.greasyfork.org/scripts/581519/GeoFS-V39_Realism-Pack.meta.js
 // ==/UserScript==
 
-(function() {
-    'use strict';
+(() => {
+    
 
-    window.initRealismPackPro = function() {
+    window.initRealismPackPro = () => {
         if (window.realismPackInstance) return;
 
         // Dependency Validation: Ensure HUD registry and aircraft instance are accessible
@@ -171,7 +171,7 @@
          * 
          * @param {string} key - The configuration setting key to toggle.
          */
-        window.toggleRealismParam = function(key) {
+        window.toggleRealismParam = (key) => {
             window.realismSettings[key] = !window.realismSettings[key];
             const tgl = document.getElementById(`toggle_${key}`);
             if (tgl) {
@@ -227,7 +227,7 @@
              * Dashboard UI: HUD Tab Registration
              * Injects the Realism control panel into the unified V3.9 HUD.
              */
-            initDashboard: function() {
+            initDashboard: () => {
                 const realismHTML = `
                     <div style="display: flex; flex-direction: column; gap: 10px; padding: 2px;">
                         <!-- Category: Physics Settings -->
@@ -261,7 +261,7 @@
                         <div style="padding: 10px; background: linear-gradient(to right, rgba(255, 159, 5, 0.08), rgba(0,0,0,0.3)); border-radius: 12px; border: 1px solid rgba(255,255,255,0.05); backdrop-filter: blur(5px);">
                             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
                                 <span style="font-size: 0.6rem; color: rgba(255,255,255,0.5); font-weight: 700; letter-spacing: 0.5px;">G-FORCE TELEMETRY</span>
-                                <span id="realismGVal" class="highlight" style="font-size: 0.85rem; font-family: 'Outfit', sans-serif; font-weight: 700; color: #ff9f05;">1.0 G</span>
+                                <span id="realismGVal" class="highlight" style="font-size: 0.85rem; font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif; font-weight: 700; color: #ff9f05;">1.0 G</span>
                             </div>
                             <div style="width: 100%; height: 4px; background: rgba(0,0,0,0.4); border-radius: 2px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
                                 <div id="realismGBar" style="width: 10%; height: 100%; background: #ff9f05; transition: width 0.1s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: 0 0 8px rgba(255, 159, 5, 0.5);"></div>
@@ -290,7 +290,7 @@
              * Implements pilot breathing effects under load and procedural 
              * wind audio based on cockpit acceleration.
              */
-            initGSystems: function() {
+            initGSystems: () => {
                 const breathAudio = new Audio(`${AUDIO_BASE}cutgbreath.mp3`);
                 const windAudio = new Audio(`${AUDIO_BASE}wind.mp3`);
 
@@ -391,7 +391,7 @@
              * Implements camera shake based on AoA (buffeting), Airspeed 
              * (turbulence), and G-load impacts.
              */
-            initCameraSystems: function() {
+            initCameraSystems: () => {
                 setInterval(() => {
                     if (!window.realismSettings.cameraShake || geofs.isPaused()) return;
                     const aoa = geofs.animation.values.aoa;
@@ -418,7 +418,7 @@
              * Propwash Engine: Aerodynamic Interaction
              * Modifies airfoil propwash coefficients for supported propeller-driven aircraft.
              */
-            initPropwash: function() {
+            initPropwash: () => {
                 const PWAircraft = new Set([21, 2, 2808, 1, 8, 12, 13, 40, 1069, 2750, 4251, 1022, 1026, 14, 16]);
                 setInterval(() => {
                     if (!window.realismSettings.propwash || !geofs.aircraft.instance) return;
@@ -433,7 +433,7 @@
                 }, 100);
             },
 
-            initSafetySystems: function() {
+            initSafetySystems: () => {
                 setInterval(() => {
                     if (!window.realismSettings.spinFix || !geofs.aircraft.instance) return;
                     const spinIds = [2948, 2581, 2808, 3460, 2988];
@@ -459,7 +459,7 @@
                 }, 1000);
             },
 
-            initEngineSystems: function() {
+            initEngineSystems: () => {
                 setInterval(() => {
                     if (!window.realismSettings.engineInertia || !geofs.aircraft.instance || geofs.aircraft.instance.definition.maxRPM !== 10000) return;
                     const rpm = geofs.animation.values.rpm;
@@ -467,7 +467,7 @@
                 }, 100);
             },
 
-            initControlSystems: function() {
+            initControlSystems: () => {
                 $(document).keydown(e => {
                     if (window.realismSettings.spoilerArming && e.which == 16) {
                         if (!geofs.aircraft.instance.groundContact && controls.airbrakes.position === 0) {
@@ -485,7 +485,7 @@
                 }, 100);
             },
 
-            initExternalExpansions: function() {
+            initExternalExpansions: () => {
                 setInterval(() => {
                     if (!window.realismSettings.soundExpansion || geofs.isPaused()) return;
                     const id = Number(geofs.aircraft.instance.id);
@@ -501,7 +501,7 @@
                 }, 2000);
             },
 
-            initPerformanceHacks: function() {
+            initPerformanceHacks: () => {
                 setInterval(() => {
                     if (!window.realismSettings.performanceMode) return;
                     geofs.api.renderingSettings.degradedCollisions = true;
@@ -509,7 +509,7 @@
                 }, 1000);
             },
 
-            initEnvironmentPatches: function() {
+            initEnvironmentPatches: () => {
                 setInterval(() => {
                     if (Object.values(geofs.runways.nearRunways)[0]?.icao == "VNLK") {
                         geofs.runways.setRunwayModelVisibility(1);
@@ -519,37 +519,37 @@
                 }, 1000);
             },
 
-            initVortexEffects: function() {
+            initVortexEffects: () => {
                 setInterval(() => {
                     if (!window.realismSettings.vortexEffects || !geofs.aircraft.instance) return;
                 }, 100);
             },
 
-            initFBW: function() {
+            initFBW: () => {
                 setInterval(() => {
                     if (!geofs.aircraft.instance) return;
                 }, 16);
             },
 
-            initEjections: function() {
+            initEjections: () => {
                 $(document).keydown(e => {
                     if (e.which == 69) { }
                 });
             },
 
-            initKiasFix: function() {
+            initKiasFix: () => {
                 setInterval(() => {
                     if (!geofs.animation.values) return;
                 }, 100);
             },
 
-            initCarrierOps: function() {
+            initCarrierOps: () => {
                 setInterval(() => {
                     if (!window.realismSettings.carrierOps || !geofs.aircraft.instance) return;
                 }, 100);
             },
 
-            initCloudDensity: function() { }
+            initCloudDensity: () => { }
         };
 
         window.realismPackInstance = suite;
