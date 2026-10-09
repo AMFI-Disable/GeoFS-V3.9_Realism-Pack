@@ -51,57 +51,57 @@
 // @name:lo             GeoFS-V3.9_Realism-Pack
 // @name:ur             GeoFS-V3.9_حقیقت-پسندی-پیک
 
-// @description         Advanced physics engine featuring G-force effects, camera shake, and immersive audio. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:vi      Công cụ vật lý tiên tiến có hiệu ứng lực G, rung máy và âm thanh sống động. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:zh-CN   先进的物理引擎具有重力效果、相机抖动和沉浸式音频。 © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:zh-TW   先進的實體引擎具有重力效果、相機震動和沈浸式音訊。 © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:ja      G フォース効果、カメラシェイク、臨場感あふれるオーディオを備えた高度な物理エンジン。 © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:ko      G-force 효과, 카메라 흔들림, 몰입형 오디오를 갖춘 고급 물리 엔진입니다. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:fr      Moteur physique avancé comprenant des effets de force G, un bougé de caméra et un son immersif. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:de      Fortschrittliche Physik-Engine mit G-Force-Effekten, Kameraverwacklungen und beeindruckendem Audio. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:es      Motor de física avanzado con efectos de fuerza G, movimiento de cámara y audio envolvente. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:pt-BR   Mecanismo de física avançado com efeitos de força G, vibração da câmera e áudio envolvente. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:pt-PT   Mecanismo de física avançado com efeitos de força G, vibração da câmara e áudio envolvente. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:ru      Усовершенствованный физический движок с эффектами G-force, дрожания камеры и захватывающим звуком. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:ar      محرك فيزيائي متقدم يتميز بتأثيرات G-force واهتزاز الكاميرا والصوت الغامر. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:tr      G-force efektleri, kamera sarsıntısı ve sürükleyici ses özelliklerine sahip gelişmiş fizik motoru. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:id      Mesin fisika canggih yang menampilkan efek G-force, guncangan kamera, dan audio yang imersif. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:th      เอ็นจิ้นฟิสิกส์ขั้นสูงที่มีเอฟเฟกต์ G-force กล้องสั่น และเสียงที่สมจริง © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:pl      Zaawansowany silnik fizyczny z efektami siły G, drganiami aparatu i wciągającym dźwiękiem. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:nl      Geavanceerde fysica-engine met G-krachteffecten, cameratrilling en meeslepende audio. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:it      Motore fisico avanzato con effetti di forza G, vibrazioni della fotocamera e audio coinvolgente. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:sv      Avancerad fysikmotor med G-force-effekter, kameraskakningar och uppslukande ljud. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:da      Avanceret fysikmotor med G-force-effekter, kamerarystelser og fordybende lyd. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:fi      Edistyksellinen fysiikkamoottori, jossa on G-force-tehosteet, kameran tärinä ja mukaansatempaava ääni. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:nb      Avansert fysikkmotor med G-force-effekter, kamerarystelser og oppslukende lyd. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:cs      Pokročilý fyzikální engine s efekty G-force, chvěním kamery a pohlcujícím zvukem. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:hu      Fejlett fizikai motor G-force effektusokkal, kamerarázással és magával ragadó hanggal. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:ro      Motor avansat de fizică cu efecte G-force, mișcarea camerei și sunet captivant. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:uk      Удосконалений фізичний механізм із ефектами G-force, тремтінням камери та захоплюючим звуком. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:hi      उन्नत भौतिकी इंजन जिसमें जी-फोर्स प्रभाव, कैमरा शेक और इमर्सिव ऑडियो शामिल है। © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:bn      G-ফোর্স প্রভাব, ক্যামেরা শেক এবং নিমজ্জিত অডিও সমন্বিত উন্নত পদার্থবিদ্যা ইঞ্জিন। © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:fa      موتور فیزیک پیشرفته با جلوه‌های نیروی G، لرزش دوربین و صدای فراگیر. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:he      מנוע פיזיקה מתקדם הכולל אפקטים של כוח G, רעידות מצלמה ואודיו סוחף. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:ms      Enjin fizik lanjutan yang menampilkan kesan G-force, goncangan kamera dan audio yang mengasyikkan. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:fil     Advanced na physics engine na nagtatampok ng mga G-force effect, camera shake, at nakaka-engganyong audio. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:el      Προηγμένη μηχανή φυσικής με εφέ G-force, κούνημα κάμερας και καθηλωτικό ήχο. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:hr      Napredni fizički mehanizam s efektima G-sile, podrhtavanjem kamere i impresivnim zvukom. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:sk      Pokročilý fyzikálny engine s efektmi G-force, trasením kamery a pohlcujúcim zvukom. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:bg      Усъвършенстван физически двигател, включващ ефекти на G-force, трептене на камерата и завладяващо аудио. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:sr      Напредни физички механизам са ефектима Г-форце, подрхтавањем камере и импресивним звуком. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:lt      Pažangus fizikos variklis su G-force efektais, fotoaparato drebėjimu ir įtraukiu garsu. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:lv      Uzlabots fizikas dzinējs ar G-force efektiem, kameras vibrāciju un ieskaujošu audio. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:et      Täiustatud füüsikamootor, millel on G-force efektid, kaamera värisemine ja kaasahaarav heli. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:sl      Napreden fizikalni mehanizem z učinki G-sile, tresenjem kamere in poglobljenim zvokom. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:ca      Motor de física avançat amb efectes de força G, sacsejada de la càmera i àudio immersiu. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:af      Gevorderde fisika-enjin met G-krag-effekte, kameraskud en meeslepende klank. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:sw      Injini ya hali ya juu ya fizikia inayoangazia madoido ya G-force, mtikisiko wa kamera na sauti kamilifu. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:zu      Injini yefiziksi ethuthukisiwe enemiphumela ye-G-force, ukuzamazama kwekhamera, nomsindo ogxilile. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:mn      G-force эффект, камерын чичиргээ, гайхалтай аудио зэргийг багтаасан дэвшилтэт физик хөдөлгүүр. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:my      G-force အထူးပြုလုပ်ချက်များ၊ ကင်မရာလှုပ်ခါခြင်းနှင့် နစ်မြုပ်နေသော အသံများပါရှိသော အဆင့်မြင့် ရူပဗေဒအင်ဂျင်။ © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:km      ម៉ាស៊ីន​រូបវិទ្យា​កម្រិត​ខ្ពស់​ដែល​មាន​ឥទ្ធិពល G-force, កាមេរ៉ា​ញ័រ និង​សំឡេង​ដែល​មាន​ភាព​អស្ចារ្យ។ © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:lo      ເຄື່ອງຈັກຟີຊິກຂັ້ນສູງທີ່ມີເອັບເຟັກ G-force, ການສັ່ນຂອງກ້ອງຖ່າຍຮູບ, ແລະສຽງທີ່ເລິກເຊິ່ງ. © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
-// @description:ur      اعلی درجے کا فزکس انجن جس میں G-force اثرات، کیمرہ شیک، اور عمیق آڈیو شامل ہیں۔ © 2026 _init. Part of the GeoFS-V3.9_Ecosystem.
+// @description         Advanced physics engine featuring G-force effects, camera shake, and immersive audio. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:vi      Công cụ vật lý tiên tiến có hiệu ứng lực G, rung máy và âm thanh sống động. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:zh-CN   先进的物理引擎具有重力效果、相机抖动和沉浸式音频。 © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:zh-TW   先進的實體引擎具有重力效果、相機震動和沈浸式音訊。 © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:ja      G フォース効果、カメラシェイク、臨場感あふれるオーディオを備えた高度な物理エンジン。 © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:ko      G-force 효과, 카메라 흔들림, 몰입형 오디오를 갖춘 고급 물리 엔진입니다. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:fr      Moteur physique avancé comprenant des effets de force G, un bougé de caméra et un son immersif. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:de      Fortschrittliche Physik-Engine mit G-Force-Effekten, Kameraverwacklungen und beeindruckendem Audio. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:es      Motor de física avanzado con efectos de fuerza G, movimiento de cámara y audio envolvente. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:pt-BR   Mecanismo de física avançado com efeitos de força G, vibração da câmera e áudio envolvente. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:pt-PT   Mecanismo de física avançado com efeitos de força G, vibração da câmara e áudio envolvente. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:ru      Усовершенствованный физический движок с эффектами G-force, дрожания камеры и захватывающим звуком. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:ar      محرك فيزيائي متقدم يتميز بتأثيرات G-force واهتزاز الكاميرا والصوت الغامر. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:tr      G-force efektleri, kamera sarsıntısı ve sürükleyici ses özelliklerine sahip gelişmiş fizik motoru. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:id      Mesin fisika canggih yang menampilkan efek G-force, guncangan kamera, dan audio yang imersif. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:th      เอ็นจิ้นฟิสิกส์ขั้นสูงที่มีเอฟเฟกต์ G-force กล้องสั่น และเสียงที่สมจริง © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:pl      Zaawansowany silnik fizyczny z efektami siły G, drganiami aparatu i wciągającym dźwiękiem. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:nl      Geavanceerde fysica-engine met G-krachteffecten, cameratrilling en meeslepende audio. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:it      Motore fisico avanzato con effetti di forza G, vibrazioni della fotocamera e audio coinvolgente. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:sv      Avancerad fysikmotor med G-force-effekter, kameraskakningar och uppslukande ljud. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:da      Avanceret fysikmotor med G-force-effekter, kamerarystelser og fordybende lyd. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:fi      Edistyksellinen fysiikkamoottori, jossa on G-force-tehosteet, kameran tärinä ja mukaansatempaava ääni. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:nb      Avansert fysikkmotor med G-force-effekter, kamerarystelser og oppslukende lyd. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:cs      Pokročilý fyzikální engine s efekty G-force, chvěním kamery a pohlcujícím zvukem. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:hu      Fejlett fizikai motor G-force effektusokkal, kamerarázással és magával ragadó hanggal. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:ro      Motor avansat de fizică cu efecte G-force, mișcarea camerei și sunet captivant. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:uk      Удосконалений фізичний механізм із ефектами G-force, тремтінням камери та захоплюючим звуком. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:hi      उन्नत भौतिकी इंजन जिसमें जी-फोर्स प्रभाव, कैमरा शेक और इमर्सिव ऑडियो शामिल है। © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:bn      G-ফোর্স প্রভাব, ক্যামেরা শেক এবং নিমজ্জিত অডিও সমন্বিত উন্নত পদার্থবিদ্যা ইঞ্জিন। © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:fa      موتور فیزیک پیشرفته با جلوه‌های نیروی G، لرزش دوربین و صدای فراگیر. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:he      מנוע פיזיקה מתקדם הכולל אפקטים של כוח G, רעידות מצלמה ואודיו סוחף. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:ms      Enjin fizik lanjutan yang menampilkan kesan G-force, goncangan kamera dan audio yang mengasyikkan. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:fil     Advanced na physics engine na nagtatampok ng mga G-force effect, camera shake, at nakaka-engganyong audio. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:el      Προηγμένη μηχανή φυσικής με εφέ G-force, κούνημα κάμερας και καθηλωτικό ήχο. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:hr      Napredni fizički mehanizam s efektima G-sile, podrhtavanjem kamere i impresivnim zvukom. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:sk      Pokročilý fyzikálny engine s efektmi G-force, trasením kamery a pohlcujúcim zvukom. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:bg      Усъвършенстван физически двигател, включващ ефекти на G-force, трептене на камерата и завладяващо аудио. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:sr      Напредни физички механизам са ефектима Г-форце, подрхтавањем камере и импресивним звуком. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:lt      Pažangus fizikos variklis su G-force efektais, fotoaparato drebėjimu ir įtraukiu garsu. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:lv      Uzlabots fizikas dzinējs ar G-force efektiem, kameras vibrāciju un ieskaujošu audio. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:et      Täiustatud füüsikamootor, millel on G-force efektid, kaamera värisemine ja kaasahaarav heli. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:sl      Napreden fizikalni mehanizem z učinki G-sile, tresenjem kamere in poglobljenim zvokom. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:ca      Motor de física avançat amb efectes de força G, sacsejada de la càmera i àudio immersiu. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:af      Gevorderde fisika-enjin met G-krag-effekte, kameraskud en meeslepende klank. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:sw      Injini ya hali ya juu ya fizikia inayoangazia madoido ya G-force, mtikisiko wa kamera na sauti kamilifu. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:zu      Injini yefiziksi ethuthukisiwe enemiphumela ye-G-force, ukuzamazama kwekhamera, nomsindo ogxilile. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:mn      G-force эффект, камерын чичиргээ, гайхалтай аудио зэргийг багтаасан дэвшилтэт физик хөдөлгүүр. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:my      G-force အထူးပြုလုပ်ချက်များ၊ ကင်မရာလှုပ်ခါခြင်းနှင့် နစ်မြုပ်နေသော အသံများပါရှိသော အဆင့်မြင့် ရူပဗေဒအင်ဂျင်။ © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:km      ម៉ាស៊ីន​រូបវិទ្យា​កម្រិត​ខ្ពស់​ដែល​មាន​ឥទ្ធិពល G-force, កាមេរ៉ា​ញ័រ និង​សំឡេង​ដែល​មាន​ភាព​អស្ចារ្យ។ © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:lo      ເຄື່ອງຈັກຟີຊິກຂັ້ນສູງທີ່ມີເອັບເຟັກ G-force, ການສັ່ນຂອງກ້ອງຖ່າຍຮູບ, ແລະສຽງທີ່ເລິກເຊິ່ງ. © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
+// @description:ur      اعلی درجے کا فزکس انجن جس میں G-force اثرات، کیمرہ شیک، اور عمیق آڈیو شامل ہیں۔ © 2026 AMFI-Disable. Part of the GeoFS-V3.9_Ecosystem.
 
 // @require             https://update.greasyfork.org/scripts/581510/code.js
 // @require             https://update.greasyfork.org/scripts/581511/code.js
@@ -114,11 +114,11 @@
 // @compatible          safari
 // @compatible          brave
 // @compatible          opera
-// @copyright           2026, _init (https://greasyfork.org/users/1594049)
+// @copyright           2026, AMFI-Disable (https://greasyfork.org/users/1594049)
 
 // @namespace           https://greasyfork.org/users/1594049
 // @version             2.0.2
-// @author              _init
+// @author              AMFI-Disable
 // @icon                https://geofs-assets.evengao6688.workers.dev/icons/realism-pack.png
 // @match               https://www.geo-fs.com/geofs.php*
 // @grant               none
@@ -491,11 +491,11 @@
                     const id = Number(geofs.aircraft.instance.id);
                     if (window.lastAudioLoad === id) return;
                     if ([4, 3054].includes(id)) {
-                        const s = document.createElement('script'); s.src = "https://raw.githack.com/AbnormalHuman/GeoFS-737-Immersion-SFX/main/index.js"; document.body.appendChild(s);
+                        const s = document.createElement('script'); s.src = "https://geofs-assets.evengao6688.workers.dev/addons/realism_addon/scripts/sfx_737.js"; document.body.appendChild(s);
                     } else if ([240, 25, 4402].includes(id)) {
-                        const s = document.createElement('script'); s.src = "https://cdn.jsdelivr.net/gh/NVB9ALT/777-Realism-Overhaul-for-Realism-Addon@main/indexA.js"; document.body.appendChild(s);
+                        const s = document.createElement('script'); s.src = "https://geofs-assets.evengao6688.workers.dev/addons/realism_addon/scripts/sfx_777.js"; document.body.appendChild(s);
                     } else if ([2865, 2870, 2871, 242, 2843, 2899, 24, 2973].includes(id)) {
-                        const s = document.createElement('script'); s.src = "https://raw.githack.com/kolos26/geofs-a320neo-sounds-byAriakimTaiyo/main/sounds.js"; document.body.appendChild(s);
+                        const s = document.createElement('script'); s.src = "https://geofs-assets.evengao6688.workers.dev/addons/realism_addon/scripts/sfx_a320.js"; document.body.appendChild(s);
                     }
                     window.lastAudioLoad = id;
                 }, 2000);
