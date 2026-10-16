@@ -6,6 +6,18 @@
 
 The immersion-focused environmental physics framework for **GeoFS-V3.9**. This module introduces advanced atmospheric effects, ground handling physics, and sound synthesis to bridge the gap between simulation and reality.
 
+---
+
+## ⚖️ Educational & Fair-Play Disclaimer
+
+> [!CAUTION]
+> **IMPORTANT NOTICE & DISCLAIMER**:
+> This codebase is provided strictly for educational, research, and testing purposes in authorized environments.
+> Using automated assistance or unauthorized scripts in violation of platform terms of service or anti-cheat policies may lead to account penalties.
+> The developers and contributors accept no responsibility or liability for misuse of this software.
+
+---
+
 ## ✨ Features
 
 - **🌬️ Advanced Turbulence**: Procedural wind-shear and gust simulation based on altitude and terrain.
