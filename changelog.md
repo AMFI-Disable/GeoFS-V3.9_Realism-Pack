@@ -4,6 +4,35 @@ All notable changes, aerodynamic simulation enhancements, and version history fo
 
 ---
 
+## [3.9.0] - Unified Metadata
+
+### Changed
+
+- Standardize the userscript metadata and version across the V3.9 ecosystem.
+- Match only the GeoFS main site and activate only when it reports V3.9.
+
+---
+
+## [Unreleased]
+
+### Changed
+
+- **HUD Tab Label**: Renamed registered HUD tab to `REALISM`.
+- **Theme Alignment**: Updated physics and systems toggles, G-meter readouts, and visual indicators to neutral `#dddddd` and green `#4caf50`.
+- **Audio Source**: Updated Boeing 737 SFX audio script source to raw.githack.com repository.
+- **Favicon Metadata**: Switched userscript icon reference to the official GeoFS favicon.
+
+---
+
+## [2.0.7] - GeoFS V3.9 Compatibility
+
+### Changed
+
+- Start only after GeoFS reports V3.9; remain inactive on other or unrecognized versions.
+- Update compatibility documentation and version metadata.
+
+---
+
 ## [2.0.2] - Ground Handling And Aerodynamic Damping
 
 ### Added
