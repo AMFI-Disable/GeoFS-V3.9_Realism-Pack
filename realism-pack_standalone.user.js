@@ -117,9 +117,9 @@
 // @copyright           2026, AMFI-Disable (https://greasyfork.org/users/1594049)
 
 // @namespace           https://greasyfork.org/users/1594049
-// @version             2.0.2
+// @version             2.0.6
 // @author              AMFI-Disable
-// @icon                https://geofs-assets.evengao6688.workers.dev/icons/realism-pack.png
+// @icon                https://www.geo-fs.com/images/icons/favicon.ico
 // @match               https://www.geo-fs.com/geofs.php*
 // @grant               none
 // @license             MIT
@@ -195,9 +195,9 @@
             window.realismSettings[key] = !window.realismSettings[key];
             const tgl = document.getElementById(`toggle_${key}`);
             if (tgl) {
-                tgl.style.background = window.realismSettings[key] ? '#ff9f05' : 'rgba(255,255,255,0.05)';
+                tgl.style.background = window.realismSettings[key] ? '#4caf50' : 'rgba(255,255,255,0.05)';
                 tgl.firstElementChild.style.left = window.realismSettings[key] ? '18px' : '2px';
-                tgl.style.boxShadow = window.realismSettings[key] ? '0 0 10px rgba(255, 159, 5, 0.5)' : 'none';
+                tgl.style.boxShadow = window.realismSettings[key] ? '0 0 10px rgba(255, 255, 255, 0.5)' : 'none';
             }
         };
 
@@ -212,7 +212,7 @@
             return `
                 <div style="display: flex; justify-content: space-between; align-items: center; padding: 2px 0; transition: all 0.2s ease;">
                     <span style="font-size: 0.7rem; color: rgba(255,255,255,0.6); font-weight: 500; letter-spacing: 0.3px;">${label.toUpperCase()}</span>
-                    <div onclick="window.toggleRealismParam('${key}')" id="toggle_${key}" style="width: 32px; height: 16px; background: ${window.realismSettings[key] ? '#ff9f05' : 'rgba(255,255,255,0.05)'}; border-radius: 10px; cursor: pointer; position: relative; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); border: 1px solid rgba(255,255,255,0.1); box-shadow: ${window.realismSettings[key] ? '0 0 10px rgba(255, 159, 5, 0.3)' : 'none'};">
+                    <div onclick="window.toggleRealismParam('${key}')" id="toggle_${key}" style="width: 32px; height: 16px; background: ${window.realismSettings[key] ? '#4caf50' : 'rgba(255,255,255,0.05)'}; border-radius: 10px; cursor: pointer; position: relative; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); border: 1px solid rgba(255,255,255,0.1); box-shadow: ${window.realismSettings[key] ? '0 0 10px rgba(255, 255, 255, 0.3)' : 'none'};">
                         <div style="width: 12px; height: 12px; background: #fff; border-radius: 50%; position: absolute; top: 1px; left: ${window.realismSettings[key] ? '18px' : '2px'}; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: 0 2px 4px rgba(0,0,0,0.2);"></div>
                     </div>
                 </div>`;
@@ -251,10 +251,10 @@
                 const realismHTML = `
                     <div style="display: flex; flex-direction: column; gap: 10px; padding: 2px;">
                         <!-- Category: Physics Settings -->
-                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; background: rgba(255,255,255,0.02); padding: 10px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05); backdrop-filter: blur(10px);">
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; background: transparent; padding: 2px;">
                             <div style="display: flex; flex-direction: column; gap: 4px;">
-                                <div style="font-size: 0.6rem; color: #ff9f05; font-weight: 800; letter-spacing: 1px; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;">
-                                    <span style="width: 4px; height: 4px; background: #ff9f05; border-radius: 50%;"></span> PHYSICS
+                                <div style="font-size: 0.6rem; color: #dddddd; font-weight: 800; letter-spacing: 1px; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;">
+                                    <span style="width: 4px; height: 4px; background: #dddddd; border-radius: 50%;"></span> PHYSICS
                                 </div>
                                 ${makeToggle("G-Breath", "gBreath")}
                                 ${makeToggle("Blackout", "blackout")}
@@ -265,8 +265,8 @@
                             </div>
                             <!-- Category: System Modifications -->
                             <div style="display: flex; flex-direction: column; gap: 4px;">
-                                <div style="font-size: 0.6rem; color: #34d399; font-weight: 800; letter-spacing: 1px; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;">
-                                    <span style="width: 4px; height: 4px; background: #34d399; border-radius: 50%;"></span> SYSTEMS
+                                <div style="font-size: 0.6rem; color: #dddddd; font-weight: 800; letter-spacing: 1px; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;">
+                                    <span style="width: 4px; height: 4px; background: #dddddd; border-radius: 50%;"></span> SYSTEMS
                                 </div>
                                 ${makeToggle("Spin Fix", "spinFix")}
                                 ${makeToggle("Blade X", "bladeCollisions")}
@@ -278,13 +278,13 @@
                         </div>
                         
                         <!-- Telemetry: Live G-Force Visualizer -->
-                        <div style="padding: 10px; background: linear-gradient(to right, rgba(255, 159, 5, 0.08), rgba(0,0,0,0.3)); border-radius: 12px; border: 1px solid rgba(255,255,255,0.05); backdrop-filter: blur(5px);">
+                        <div style="padding: 10px; background: transparent; border-top: 1px solid rgba(255,255,255,0.2);">
                             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
                                 <span style="font-size: 0.6rem; color: rgba(255,255,255,0.5); font-weight: 700; letter-spacing: 0.5px;">G-FORCE TELEMETRY</span>
-                                <span id="realismGVal" class="highlight" style="font-size: 0.85rem; font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif; font-weight: 700; color: #ff9f05;">1.0 G</span>
+                                <span id="realismGVal" class="highlight" style="font-size: 0.85rem; font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif; font-weight: 700; color: #dddddd;">1.0 G</span>
                             </div>
                             <div style="width: 100%; height: 4px; background: rgba(0,0,0,0.4); border-radius: 2px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-                                <div id="realismGBar" style="width: 10%; height: 100%; background: #ff9f05; transition: width 0.1s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: 0 0 8px rgba(255, 159, 5, 0.5);"></div>
+                                <div id="realismGBar" style="width: 10%; height: 100%; background: #dddddd; transition: width 0.1s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);"></div>
                             </div>
                         </div>
                     </div>
@@ -511,7 +511,7 @@
                     const id = Number(geofs.aircraft.instance.id);
                     if (window.lastAudioLoad === id) return;
                     if ([4, 3054].includes(id)) {
-                        const s = document.createElement('script'); s.src = "https://geofs-assets.evengao6688.workers.dev/addons/realism_addon/scripts/sfx_737.js"; document.body.appendChild(s);
+                        const s = document.createElement('script'); s.src = "https://raw.githack.com/AbnormalHuman/GeoFS-737-Immersion-SFX/main/index.js"; document.body.appendChild(s);
                     } else if ([240, 25, 4402].includes(id)) {
                         const s = document.createElement('script'); s.src = "https://geofs-assets.evengao6688.workers.dev/addons/realism_addon/scripts/sfx_777.js"; document.body.appendChild(s);
                     } else if ([2865, 2870, 2871, 242, 2843, 2899, 24, 2973].includes(id)) {
